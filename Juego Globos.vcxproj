@@ -139,7 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="entidad.cpp" />
+    <ClCompile Include="juego.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="tirachinas.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entidad.h" />
+    <ClInclude Include="juego.h" />
+    <ClInclude Include="tirachinas.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

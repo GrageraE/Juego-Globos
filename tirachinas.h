@@ -8,7 +8,4 @@ class Tirachinas : public Entidad
 public:
 	Tirachinas(const Vector2& pos);
 	~Tirachinas();
-	int getR() const;
-private:
-	const int R = 20;
 };

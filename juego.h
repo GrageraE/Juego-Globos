@@ -11,4 +11,7 @@ public:
 	void run();
 private:
 	Vector2 screen;
+	void resizeImage(Image* img, int base, int heigh);
+	float random();
+	unsigned globosReventados;
 };

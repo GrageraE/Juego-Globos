@@ -6,7 +6,7 @@
 
 int main()
 {
-	Juego j({ 900, 600 });
+	Juego j({ 1000, 620 });
 	j.run();
 	return 0;
 }

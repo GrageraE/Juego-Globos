@@ -88,6 +88,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -140,14 +141,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="entidad.cpp" />
+    <ClCompile Include="globo.cpp" />
     <ClCompile Include="juego.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="tirachinas.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="entidad.h" />
+    <ClInclude Include="globo.h" />
     <ClInclude Include="juego.h" />
     <ClInclude Include="tirachinas.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cielo.png" />
+    <Image Include="globo.png" />
+    <Image Include="mira.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

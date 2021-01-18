@@ -27,6 +27,9 @@
     <ClCompile Include="entidad.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
+    <ClCompile Include="globo.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="juego.h">
@@ -38,5 +41,19 @@
     <ClInclude Include="entidad.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="globo.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="mira.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="globo.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="cielo.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
   </ItemGroup>
 </Project>

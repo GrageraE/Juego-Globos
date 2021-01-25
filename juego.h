@@ -14,4 +14,8 @@ private:
 	void resizeImage(Image* img, int base, int heigh);
 	float random();
 	unsigned globosReventados;
+	enum class Estado {
+		INICIADO = 0,
+		GAME_OVER
+	}state;
 };
